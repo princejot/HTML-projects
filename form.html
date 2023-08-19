@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="email">Username</label>
+        <input type="text" id="email" placeholder="Enter your email">
+<br>
+<br>
+        <label for="pasword">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+<br>
+<br>
+        <input type="submit" value="submit">
+
+        <br>
+        <br>
+        <label for="gender">Select Gender</label>
+    <select  name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">female</option>
+        <option value="prefer not to say">Prefer not to say</option>
+        
+    </select>
+    <br>
+    <br>
+    <p>Please Select Gender:</p>
+<label for="checkbox1">MALE</label>
+    <input type="checkbox" id="checkbox1" name="two">
+    <label for="checkbox2">FEMALE</label>
+    <input type="checkbox" id="checkbox2" name="two">
+    <label for="checkbox3">Prefer Not TO say</label>
+    <input type="checkbox" id="checkbox3" name="two">
+
+<br>
+<br>
+<fieldset>
+    <legend>gender</legend>
+<p>please select gender :</p>
+<input type="radio" id="radio1" name="one">
+<label for="radio1">Male</label><br>
+
+<input type="radio" id="radio2" name="one">
+<label for="radio2">Female</label><br>
+
+<input type="radio" id="radio3" name="one">
+<label for="radio3">Prefer not to say</label>
+
+
+</fieldset>
+<br><br>
+
+<textarea name="textarea1" id="textarea1" cols="15" rows="5" placeholder="something about you..."></textarea>
+<br>
+<button type="button" onclick="alert('Hello my name is prince')">CLIck Me</button>
+
+
+    </form>
+    <form action="">
+        <input type="text" list="browsers">
+        <datalist id="browsers">
+            <option value="mozila">Mozila</option>
+            <option value="firefox">firefox</option>
+            <option value="chrome">chrome</option>       \
+            <option value="explorer">explorer</option>
+        </datalist>
+        <input type="submit" value="click here" onclick="alert('thanks you')">
+    
+
+    </form>
+    <form action="">
+<label for="quantity">put a number(between 1 to 5)</label>
+    <input type="number" id="quantity" min="1" max="5">
+    <button>submit</button>
+</form>
+</body>
+</html>

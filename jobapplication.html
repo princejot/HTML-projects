@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <form> 
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Prince">
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="jot">
+        <br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" placeholder="1123-456-7890">
+        <br>
+        <br>
+        
+<label for="resume">Resume:</label>
+<input type="file">
+<br><br>
+<label for="exp">Experience (years):</label>
+<input type="number" id="exp" min="0" max="50">
+<br>
+<fieldset>
+    <legend>Skills</legend>
+    <input type="checkbox" id="ch1"><br>
+    <label for="ch1">HTML</label><br>
+    <input type="checkbox" id="ch2"><br>
+    <label for="ch2">CSS</label><br>
+    <input type="checkbox" id="ch3"><br>
+    <label for="ch3">JavaScript</label><br>
+    
+</fieldset>
+<label for="ed1">Higher Education:</label> 
+<select name="ed1" id="ed1">
+    <option value="High School">High School</option>
+    <option value="graduation">Graduation</option>
+    <option value="postgraduation">Post Graduation</option>
+
+</select>
+<br>
+<label for="avail1">Availability:</label><br>
+<input type="radio" id="avail1" name="avail"><br>
+<label for="avail1">Full Time</label><br>
+<input type="radio" id="avail2" name="avail"><br>
+<label for="avail2">Part Time</label>
+<br>
+
+<p>Additional Comments:</p>
+<textarea name="text" id="text" cols="20" rows="3" placeholder="Anything you want to suggest..."></textarea>
+
+
+<br>
+<input type="submit" value="Register">
+
+
+</form>
+
+
+</body>
+
+</html>
