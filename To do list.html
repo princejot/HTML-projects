@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color:#c3e3eb ;
+        }
+
+        .container{
+            border: 1px solid black;
+            margin-left: 300px;
+            margin-right:300px ;
+            border-radius: 20px;
+            text-align: center;
+            background-color: #061e45;
+        }
+        .button{
+            background-color: #061e45;
+            position: absolute;
+            left: 750px;
+            top: 300px;
+            height: 40px;
+            width: 100px ;
+            border-radius: 10px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="container">
+        <h1 style="color: aliceblue;">TO DO LIST</h1>
+        
+        <label for="task1" style="color: aliceblue;">Task 1:</label><br>
+        <input type="text" id="task1" placeholder="Homework"><br>
+
+        <label for="task2" style="color: aliceblue;">Task 2:</label><br>
+        <input type="text" id="task2" placeholder="Games"><br>
+
+        <label for="task3" style="color: aliceblue;">Task 3:</label><br>
+        <input type="text" id="task3" placeholder="playing">
+
+        <br>
+        <br>
+        <br>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="submit" class="button" value="ADD TASKS" onclick="alert('Tasks are added to your TO DO LIST ')">
+</body>
+</html>
